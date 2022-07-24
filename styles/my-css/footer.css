@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* footer */
+
+footer {
+    height: 200px;
+    text-align: center;
+}
+
+/* for a sticky footer */
+body > footer {
+    position: sticky;
+    top:  100vh;
+}
+
+
+.footer-buffer {
+    padding-top: 2em;
+}
+
+
+.made-with-love, .copyright {
+    font-size: small;  
+    color: #eeebf0;
+}
+
+.footer-links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links-list li {
+    display: inline-block;
+}
+
+
+.footer-links-list a {
+    color: white;
+    font-size: small;
+    font-weight: 700;
+}
+
+.footer-links-list a:hover {
+    color: #dd5527;
+}
+
+
+

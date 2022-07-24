@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+.under-construction-msg {
+    text-align: center;
+    font-size: smaller;
+    padding-top: 4.7em;
+}
+
+
+.container-cover {
+    display: flex;
+    height: 25vh;
+    padding-top: 1.5em;
+    justify-content: center;
+}
+
+.bear {
+    width: 200px;
+    height: 178px;
+  
+}
+
+
+

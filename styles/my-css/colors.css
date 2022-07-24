@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* colors */
+
+.red {
+    background: #dd5527;
+}
+
+.orange {
+    background: #f48700;
+}
+
+.yellow {
+    background: #fdbf00;
+}
+
+.green {
+    background: #82c87e;
+}
+
+.blue {
+    background: #479ad8;  
+}
+
+.pink {
+    background: #ffa3e5;
+}
+
+.purple {
+    background: #b97de6;
+}
+
+.grey {
+    background: #2d2c2c;
+}
+
+.light-grey {
+    background: #eeebf0;
+}
+
+.white {
+    background:  white;
+}
+
+
+

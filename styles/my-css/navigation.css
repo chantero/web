@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* navigation bar */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 2px 3px rgb(0 0 0 / 0.15);
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: smaller;
+    padding: 15px;
+    background: #FCFCFC;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header-nav-list {
+    font-size: 0.7em;
+  margin: 0;
+    }
+}
+
+
+/* Adds space between navigation-list items */
+.header-nav-list li  {
+    padding-right: 0.7em;
+}
+
+
+
+.header-nav-list a {
+    text-decoration: none;
+}
+
+.header-nav-list a:hover {
+    color: #d52b1e;
+}    
+
+
+
+/* to "push" an item to the right */
+
+/*.header-nav-list .push {
+    margin-left: auto;
+    margin-right: 40px;
+}*/
+
+
+
+

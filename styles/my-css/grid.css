@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* grid */
+
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+    padding: 2em 2em;
+}
+
+
+.box {
+    padding: 3em;
+    text-align: center;
+}
+
+.box:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
+
+.section-grid, a {
+    color: black;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.section-grid a:hover {
+    transform: scale(1.02);
+    transition: transform 0.1s;
+}
