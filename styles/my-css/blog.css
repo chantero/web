@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+iframe 
+{
+ display: block; 
+ width: 100%; 
+ border: none; 
+ overflow-y: auto; 
+ overflow-x: hidden;
+}
